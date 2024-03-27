@@ -7,7 +7,7 @@ import java.util.List;
 @Service
 public class CursoService {
 
-    public List<CursoModel> buscarAlunos(){
+    public List<CursoModel> buscarCursos(){
         return CursoModel.getCursos();
     }
 
